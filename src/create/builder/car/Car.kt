@@ -30,6 +30,11 @@ fun main() {
         band = "BWM"
         year = 2017
     }
+    val car2=Car.Builder().apply {
+        band = "BWM"
+        year = 2017
+    }.build()
 
     println(car.toString())
+    println(car2.toString())
 }
